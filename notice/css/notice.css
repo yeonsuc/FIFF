@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+
+.main-wrapper {
+    display: flex; /* Flexbox를 사용하여 컨테이너를 가로로 배치합니다. */
+    gap: 30px; /* 컨테이너 사이의 여백을 설정합니다. */
+    padding: 30px;
+    padding-right:100px;
+    justify-content: center; /* 중앙 정렬을 위해 컨테이너를 가운데로 배치합니다. */
+}
+
+.container, .container2 {
+    outline:1px solid blue;
+    width: 350px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* 패딩과 테두리를 포함하여 총 너비/높이를 계산합니다. */
+}
+
+.outpark, .outpark2 {
+    font-size: 20px;
+    text-align: center; /* 제목을 중앙 정렬합니다. */
+    margin: 0; /* 제목의 기본 마진을 제거합니다. */
+}
+
+.description, .description2 {
+    font-size: 12px;
+    margin-bottom: 12px;
+    text-align: center; /* 설명 텍스트를 중앙 정렬합니다. */
+}
+
+/* 
+outline:1px solid blue; */
+
+.image {
+outline:1px solid blue;
+    width: 320px;
+    height: 200px;
+    border-radius: 4px;
+    margin: 0 auto; /* 이미지를 중앙 정렬합니다. */
+    display: block; /* 이미지를 블록 요소로 만들어 중앙 정렬을 가능하게 합니다. */
+}
+
+.notice_button {
+    outline:1px solid blue;
+    display: flex;
+    gap: 30px; /* 버튼 사이의 여백 */
+    /* padding-left:735px; */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map-search {
+    background-color: #A1B7CD; /* 파란색 배경 */
+    color: white; /* 흰색 글씨 */
+    border: none; /* 테두리 없음 */
+}
+
+.location-search {
+    border: 2px solid #A1B7CD; /* 파란색 테두리 */
+    color: #606060;
+    background-color: white; /* 흰색 배경 */
+}
+
+.map-search:hover, .location-search:hover {
+    opacity: 0.8; /* 마우스 오버 시 버튼을 약간 투명하게 */
+}
+
+.park_h2{
+    font-size:18px;
+    padding-top:100px;
+    /* padding-left:400px; */
+}
+
+.read_h2{
+    font-size:14px;
+    /* padding-left:400px; */
+}
+
+.point{
+    color:rgb(18, 52, 156);
+    font-size:14px;
+    /* padding-left:400px; */
+    text-decoration: underline;
+}
+
+.image-container {
+    outline:1px solid blue;
+    display: flex; /* Flexbox를 사용하여 가로 배치 */
+    gap: 130px; /* 이미지 사이의 여백 */
+    /* padding-left:370px; */
+    padding-top:100px;
+}
+
+.image-container img {
+    width: 230px; /* 이미지 너비 조정 */
+    height: auto; /* 비율을 유지하며 높이 자동 조정 */
+    border-radius: 8px; /* 이미지 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 이미지에 그림자 추가 */
+}
+
+.tel_notice1{
+    padding-left:370px;
+    font-size: 12px;
+}
+.chat_btn, .top_btn{
+    display:block;
+    width:60px; height:60px;
+    border-radius:50%;
+    position:fixed;
+    right:15px;
+    z-index:9999;
+  }
+  .chat_btn{overflow:hidden; bottom:15px;}
+  .chat_btn > img{
+    width:100%;
+  }
+  .top_btn{
+    background:#F0F0F0;
+    text-align:center; bottom:15px; display:none;
+  }
+  .top_btn i.fas{
+    font-size:25px;
+    line-height:60px;
+    color:#0F2F6E;
+  }

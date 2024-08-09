@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": "주차장"
+    },
+    "include": [
+        "주차장"
+    ]
+}

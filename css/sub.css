@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+/* reset css */
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,th,td,form,fieldset,legend,input,label,select,textarea,button {margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6 {font-size:12px; font-family:"hcR","돋움",dotum,sans-serif; color:#333;}
+a {text-decoration:none; color:#333;}
+ul,ol,li {list-style:none;}
+img,fieldset, button{border:none; vertical-align:middle;}
+strong,em, address {font-weight:normal; font-style:normal;}
+table {border-collapse:collapse;}
+
+/* font */
+@font-face {
+	font-family: "hcR";
+	src: url(../font/regular.woff);
+}
+
+@font-face {
+	font-family: "hcT";
+	src: url(../font/title.woff);
+}
+
+::selection {
+	background: #bad8fe;
+  }
+
+/* 본문 색상밑줄 */
+u{
+	text-decoration:none;
+	display:inline;
+	/* box-shadow:inset 0 -5px #9dcafd; */
+	box-shadow:inset 0 -3px #9dcafd;
+	color: #000000;
+	}
+/* 본문 색상밑줄 끝 */
+
+/* 
+outline:2px solid red; */
+
+body{
+	overflow: scroll; 
+	font-family: "hcR","돋움",dotum,sans-serif;
+	font-size:14px;
+	color:#333;
+	width: 100%; 
+	max-width: 100%;
+	max-height: 100%;
+  }
+  
+  a{
+	color:#333;
+	text-decoration:none;
+  }
+
+  /* layout */
+  #wrap {	width:100%; margin: 0 auto;}
+  
+
+/*헤더서식*/
+.h_wrap{
+  width:100%;
+  background:#ffffff;
+  position:relative;
+}
+.h_inner{
+  width:1200px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+}
+.h_inner h1{
+  margin-top:16px;
+  width:166px; height:28px;
+}
+.h_inner h1 a{
+  height:28px;
+  display:block;
+}
+.h_inner h1 img {
+  width: 100px;
+  height: 100px;
+  margin-top: -35px; /* 이미지 위쪽으로 10px 만큼 이동 */
+}
+
+/* search */
+.search-container {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.search-container img {
+	width: 30px; /* 이미지 크기 조정 */
+	height: 30px; /* 이미지 크기 조정 */
+	margin-right: 50px;
+}
+
+.search-container p {
+	margin: 0;
+	font-size: 13px;
+	color: #fff;
+	margin-left:130px; /* 텍스트와 이미지 간의 간격 좁히기 */
+}
+/* -------------------- */
+
+.gnb_inner{
+  display:flex;
+  justify-content: space-between;
+}
+.gnb_inner > li{
+  padding:0px 25px;
+}
+.gnb_inner > li > a{
+  display:block;
+  font-weight:bold;
+  line-height:60px;
+  text-align:center;
+  font-size:16px;
+}
+.gnb_inner > li > a:hover{
+  color:#4a80af;
+}
+.gnb_inner > li > a > i.fa-angle-down{display:none;}
+.sub{
+  padding-top:10px;
+  line-height:35px;
+  position:absolute;
+  z-index: 9000;
+  display:none;
+}
+.sub a{color:#000000;}
+.sub a:hover{color:#4a80af; text-decoration:underline;}
+.sub_box{
+  width:100%; height:200px;
+  background:#ffffffcf;
+  position:absolute;
+  top:60px; left:0;
+  z-index:8999;
+  display:none;
+}
+
+.lnb{
+  display:flex;
+}
+.lnb a:first-child{
+  font-size:14px;
+  line-height:60px;
+}
+.lnb > ul{
+  width:48px; height:48px;
+  display:flex;
+  flex-wrap:wrap;
+  position:relative;
+  display:none;
+}
+.lnb > ul > li{
+  width:32px;
+  height:2px;
+  background:#666;
+  position:absolute;
+  left:6px;
+}
+.lnb > ul > li:first-child{top:12px;}
+.lnb > ul > li:nth-child(2){top:24px;}
+.lnb > ul > li:last-child{top:36px;}
+.lnb .search{
+  display:block;
+  width:32px; height:32px;
+  margin:14px 10px;
+}
+
+/* 새로운 영역 스타일링 */
+
+.home {
+    background-color: #5669ae;; /* 밝은 회색 배경색 */
+    width: 100%; /* 가로 폭 */
+    margin: 20px auto; /* 상하 여백 및 중앙 정렬 */
+
+}
+
+.homeInner {
+    width: 1200px; /* 가로 폭 */
+    height: 40px; /* 세로 높이 */
+    display: flex; /* 플렉스 박스를 사용하여 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    padding: 0 10px; /* 좌우 여백 */
+    box-sizing: border-box; /* 패딩을 포함한 크기 계산 */
+	margin: 0 auto;
+ }
+ 
+.home img {
+    width: 20px; /* 이미지 가로 크기 */
+    height: auto; /* 이미지 비율 유지 */
+    margin-right: 10px; /* 이미지와 텍스트 사이의 여백 */
+    /* padding-left:160px; */
+    
+}
+
+.home p {
+  margin: 0; /* 기본 마진 제거 */
+  font-size: 14px; /* 텍스트 크기 */
+  color: #fff; /* 텍스트 색상 */
+}
+
+.home a {
+  color: #fff; /* 링크 색상 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.home a:hover {
+  text-decoration: underline; /* 호버 시 링크 밑줄 표시 */
+}
+
+.home p > a + span {
+  margin: 0 5px; /* 경로 구분 기호와 링크 사이의 여백 */
+  color: #fff; /* 경로 구분 기호 색상 */
+}
+
+/* =======================================
+ */
+#main {
+	width:1200px;
+	margin: 0 auto 50px; /* footer와의 간격 */
+}
+#main:after { content:""; display:block; clear:both; }
+#main .title {
+  font-size: 22px; /* 제목 폰트 크기 키우기 */
+  /*margin: 0;  기본 마진 제거 */
+  /* padding-left: 165px; 왼쪽 여백 추가 */
+}
+
+.titleInner {
+	margin: 0 7px;
+}
+#main hr {
+  /* border: 1px solid #ccc; 구분선 스타일 */
+	margin: 20px 0 40px 0; /* 상하 여백 20px contents와의 간격 --px*/
+  	background:#ccc;
+	height:1px;
+	border:0;
+	font-size: 0;
+}
+
+/* 
+outline:1px solid green; */
+
+section {margin:0 0 0 50px; }/* 사이드메뉴 제외한 사이 여백 */
+
+.snb {
+	float:left;
+	/*margin:30px 0;  사이드메뉴 여백 위에게 안먹어서 이것으로 */
+	margin: 0 7px;
+}
+.sideMenu{
+	background-color:#F4F4F4;
+	width:230px;
+	margin:0 auto;
+	border-radius:10px;
+}
+
+dt {
+	text-align:center;
+	background-color:#A1B7CD;
+	/* background-color:#829FBC; */
+	border:1px solid #eee;
+	border-radius:10px 10px 0 0;
+	color:#fff;
+	height:125px;
+	line-height:125px;
+	font-size:18px;
+}
+dd {
+	padding-left:15px; 
+	color:#2f2f2f;
+	background-color:#F4F4F4;
+	height:46px;	
+	line-height:46px;
+	font-size:14px;	
+	border-bottom:1px solid #BCBCBC;
+}
+dd a {
+	display:block;
+	color:#5684C9;
+	background:url(..//images/ico_arrow_sm.png) right no-repeat;
+}
+dd:last-of-type {
+	border-radius:0 0 10px 10px;
+	border-bottom:1px solid #F4F4F4;
+}
+
+/* 
+outline:1px solid blue; */
+
+.contents { 
+	float:left;
+	width:900px;
+}
+
+.contInner {
+}
+
+/* .contents p {
+	margin:30px 0 0 0;
+} */
+
+.sTitle, .xsTitle {
+
+}
+.sTitle {
+	color:#5277A9;
+	font-size:22px;
+	margin:0 0 20px 0;
+	font-weight:bold;
+}
+
+.xsTitle {
+	color:#1f75d6;
+	font-size:18px;
+	margin:20px 0 10px 0;
+	font-weight:normal;
+}
+
+ .expTitle {
+	font-size: 13px; /* 설명 텍스트 폰트 크기 */
+	margin: 10px 0 20px 0; /* 상단 여백 없음, 하단 여백 20px */
+	/*padding-left: 165px;  왼쪽 여백 추가 */
+  }
+  
+.expXsTitle {	
+	color:#1f75d6;
+	font-size:13px;
+	line-height:20px;
+	margin:0 0 30px 0;
+}
+
+.cont{
+	font-size:15px;
+	line-height:20px;
+}
+.cont li{
+	font-size:15px;
+	line-height:40px;
+	list-style: square inside;
+}
+
+.expCont {
+	font-size:13px;
+	line-height:20px;
+}
+
+
+.point{
+    color:rgb(18, 52, 156);
+    font-size:14px;
+    /* padding-left:400px; */
+    text-decoration: underline;
+}
+
+
+/* button */
+
+button {
+	margin: 1rem;
+	text-align: center;
+	box-sizing: border-box;
+	vertical-align:top;
+}
+
+.btn_m{
+	width:100px;
+	line-height:50px;
+	height:50px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin: 5px;
+	border: 1px solid #345AA0;
+	color: #345AA0;
+}
