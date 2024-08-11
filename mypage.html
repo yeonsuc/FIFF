@@ -12,7 +12,7 @@
         <!--메인서식-->
         <link href="./css/sub.css" rel="stylesheet" type="text/css">
         <link href="./css/footer.css" rel="stylesheet" type="text/css">
-        <link href="./css/notice.css" rel="stylesheet" type="text/css">
+        <link href="./css/mypage.css" rel="stylesheet" type="text/css">
 
         <!--아이콘폰트 주소-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -38,9 +38,9 @@
 						<nav class="gnb">
 							<ul class="gnb_inner">
 							<li>
-								<a href="notice.html" title="소개">FIFF 공영주차장<i class="fas fa-angle-down"></i></a>
+								<a href="intro.html" title="소개">FIFF 공영주차장<i class="fas fa-angle-down"></i></a>
 								<ul class="sub">
-								<li><a href="notice.html" title="주차장 안내">주차장 안내</a></li>
+								<li><a href="intro.html" title="주차장 안내">주차장 안내</a></li>
 								<li><a href="pksearch.html" title="주차장 검색">주차장 검색</a></li>
 								<li><a href="location.html" title="지도 검색">지도 검색</a></li>
 								</ul>
@@ -63,7 +63,7 @@
 							<li>
 								<a href="" title="미납 주차 요금">미납 주차 요금<i class="fas fa-angle-down"></i></a>
 								<ul class="sub">
-								<li><a href="javascript:void(0);" title="미납 요금 안내">미납 요금 안내</a></li>
+								<li><a href="inquiry.html" title="미납 요금 안내">미납 요금 안내</a></li>
 								<li><a href="inquiry2.html" title="조회/결제">조회/결제</a></li>
 								</ul>
 							</li>
@@ -99,7 +99,7 @@
 				<div class="homeInner">
 					<img src="./images/home_w.png" alt="홈 아이콘">
 					<!-- 새로운 영역 -->
-					<p><a href="index.html">주차요금 사전결제</a> &gt; <a href="prepayment.html">사전결제 안내</a></p>
+					<p><a href="index.html">공영주차장 정기권</a> &gt; <a href="prepayment.html">정기권 안내</a></p>
 					<div class="search-container">
 						<p>위치/장소로 검색 할 수 있습니다</p>
 						<img src="./images/search_w.png" alt="검색 아이콘">
@@ -109,71 +109,78 @@
 	<!-- //타이틀, 왼쪽 사이드 메뉴,  가운데 내용 -->
 			<main id="main">
 				<div class="titleInner">
-					<h2 class="title">주차장 안내</h2>
-					<p class="expTitle">공영주차장 이용 관련 주차 요금과 할인 항목과 감면율, 상세내역을 확인할 수 있습니다.</p>
+					<h2 class="title">내 정보 수정</h2>
+					<p class="expTitle">나의 정보에 대해 수정 혹은 추가 할 수 있습니다.</p>
 				</div>
 				<hr>
 				<!-- 사이드메뉴 -->
 				<aside class="snb">
-					<dl class="sideMenu">
-						<dt>FIFF 공영주차장</dt>
-						<dd><u>주차장 안내</u></dd>
-						<dd><a href="#">주차장 검색</a></dd>
-						<dd><a href="#">오시는 길</a></dd>
-					</dl>
-				</aside>
+                    <dl class="sideMenu">
+                        <dt>마이페이지</dt>
+                        <dd><u>내 정보 수정</u></dd>
+                        <dd><a href="#">회원 탈퇴</a></dd>
+                    </dl>
+                </aside>
 				<!-- 가운데 내용 -->
 				<section class="contents">
 					<div class="contInner">
 						<!-- 여기서부터 각자의 내용 -->
 
-						<div class="main-wrapper">
-							<div class="container">
-								<h2 class="outpark">노외주차장</h2>
-								<br>
-								<div class="description">
-									도로변의 노면에 설치된 주차구획으로 <br>
-									인근주민에게 편의를 제공하는 주차장입니다.
-								</div>
-								<img src="./images/notice1.jpg" alt="주차장 이미지" class="image">
-							</div>
-						
-							<div class="container2">
-								<h2 class="outpark2">지하주차장</h2>
-								<br>
-								<div class="description2">
-									총 지하4층 까지의 실내 주차장으로 전기차 충전 <br>
-									공간까지 있어 넓고 쾌적한 주차환경을 제공하는 주차장 입니다.
-								</div>
-								<img src="./images/notice2.jpg" alt="주차장 이미지" class="image">
-							</div>
-						</div>
-						
-						<div class="notice_button">
-							<a href="#" class="button map-search">지도 검색</a>
-							<a href="#" class="button location-search">위치 검색</a>
-						</div>
-						
-						<div class="parking_text">
-							<div class="sTitle">차번호 인식 시스템</div>
-							<br>
-							<div class="cont">공사가 직영하는 대부분의 주차장은 입출차 및 주차요금 차번호 인식 시스템이 구축되어 운영 효율화 및 이용시민의 편의를 도모하고 있습니다.<br> <br>
-							공영주차장은 주차관리원이 없는 무인주차장으로 운영합니다. 차량이 주차장에 들어올때 차량번호인식기(LPR)로 입차시간을 확인하고, 출차시 무인정산기를 통해 주차요금을 징수합니다.</div><br>
-							<div class="point">주차요금은 신용카드, 체크카드 결제가 가능하며 현금 결제는 불가합니다.</div>
-						</div>
-					
-						<div class="image-container">
-							<img src="images/tle.png" alt="전화기 이미지 1">
-							<img src="images/teq2.png" alt="전화기 이미지 2">
-							<img src="images/teq3.png" alt="전화기 이미지 3">
-						</div>
-						<br>
-						<br>
-						<div class="tel_notice">
-							<div class="tel_notice1">※주차운영부로 전화 주시기 전 공지사항 및 자주하는 질문란을 통해 미리 얻어가실 수 있는 정보를 확인 후 전화주시기 바랍니다.</div>
-						</div>
-						
-						
+                        <div id="my">	
+                            <h1>개인 정보 수정</h1>
+                            <div class="gain">
+                                <img src="images/profile.png" alt="프로필 사진">
+                                <div class="name">
+                                    <h2>정힘찬</h2>
+                                    <p>이메일@naver.com</p>
+                                    <p>010-xxxx-xxxx</p>
+                                </div>
+                                <a href="#">개인정보 수정</a>
+                            </div>
+                            <div class="park">
+                                <h1>주차 내역</h1>
+                                <table>
+                                    <tr>
+                                        <th scope="col">번호</th>
+                                        <th scope="col">주차장소</th>
+                                        <th scope="col">주차일시</th>
+                                        <th scope="col">출차일시</th>
+                                        <th scope="col">미납주차료</th>
+                                        <th scope="col">가산금</th>
+                                        <th scope="col">미납총액</th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="7">등록된 정보가 없습니다.</td>
+            
+                                    </tr>
+                                </table>
+                            </div>
+            
+                            <div class="cash">
+                                    <h1>결제 내역</h1>
+                                    <h2>차량 번호 조회</h2>
+                                <div class="re">
+                                    <input type="text" placeholder="예: 00가0000" required>
+                                    <p>조회</p>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <th scope="col">결제일자</th>
+                                        <th scope="col">결제금액</th>
+                                        <th scope="col">결제방법</th>
+                                        <th scope="col">주차장 이름</th>
+                                        <th scope="col">주차시간</th>
+                                        <th scope="col">결제상태</th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="6" >등록된 정보가 없습니다.</td>
+                                    </tr>	
+                                </table>
+                            </div>
+                        </div>
+
+                        
+
 						<!-- 여기까지각자의 내용 -->
 					</div>
 				</section><!--//contents-->

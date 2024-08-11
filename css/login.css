@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+
+#array{width:310px; height:80px;  margin:50px auto 30px;  position:relative;}
+#array p {text-align:center; }
+h4 {text-align:center; }
+
+
+.cen{margin:0 auto; width:460px; height:558px;}
+.cen img{width:159px; height:auto; margin:100px auto 100px; display:block;}
+.cen input[type="text"],[type="password"]{width:400px; height:46px; margin:0 auto; display:block; border-radius:10px; font-size:18px;  padding-left:20px; border-color:#C2C2C2 ;}
+.cen input[type="text"]{ background-color:#F0F3F6 ; margin-bottom:25px;}
+.cen input[type="password"]{margin-bottom:12px ;}
+
+.checkbox{width:147px; height:28px; margin-left:20px;}
+.checkbox input[type="checkbox"]{width:20px; height:20px; vertical-align:middle ; }
+.checkbox label[for="one"]{font-size:13px; float:right; margin-top:3px;margin-right:25px;}
+
+.cen p{width:420px; height:50px; border:1px solid #345AA0;
+    text-align:center; line-height:50px; background-color:#345AA0;
+        color:white; font-size:20px; border-radius:10px; margin-bottom:11px; cursor: pointer; margin-left:20px;}
+
+.search a{display: inline-block; font-size:14px ; color:#858585; margin-bottom: 32px; margin-left:20px;}
+h3{text-align:center ; font-size:15px;  color:#d4d2d2; cursor: pointer; }
