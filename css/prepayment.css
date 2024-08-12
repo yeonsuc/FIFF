@@ -1,17 +1,33 @@
 @charset "utf-8";
 
+.spaceR20 {
+   margin-right:20px;
+   display: flex; 
+   align-items: center;
+   /* font-weight:bold; */
+   /* color:#395f9f; */
 
-.checkBox {
-   margin: 20px auto;
-   width: 300px;
-   height: 50px;
 }
 
+.checkBox {
+   display: flex;
+   padding: 30px;
+   width:840px;
+   height: 50px;
+   justify-content: center; /* 중앙 정렬을 위해 컨테이너를 가운데로 배치합니다. */
+   background-color:#ebebeb;
+   border-radius: 8px;
+   /* margin:0 auto; */
+}
+
+/* 
+outline:1px solid blue; */
+
 .checkBoxInner {
-   width: 300px;
-   vertical-align: middle;
-   white-space: nowrap;
-   position: relative;
+   margin:0 auto;
+   display: flex; 
+   align-items: center;
+   /* white-space: nowrap; */
 }
 /* .checkBoxInner .icon{
    position: absolute;
@@ -26,9 +42,9 @@
    height: 50px;
    background: #cddce9;
    border: none;
-   font-size: 10pt;
+   font:bold 14pt "roboto";
    float: left;
-   color: #63717f;
+   color: #345AA0;
    padding-left: 25px;
    -webkit-border-radius: 5px;
    -moz-border-radius: 5px;
@@ -39,9 +55,12 @@
    -ms-transition: background .55s ease;
    -o-transition: background .55s ease;
    transition: background .55s ease;
- }
+}
 
- .checkBoxInner input#search::-webkit-input-placeholder {
+/* 
+ outline:1px solid blue; */
+
+.checkBoxInner input#search::-webkit-input-placeholder {
    color: #65737e;
 }
 .checkBoxInner1 input#search:-moz-placeholder { /* Firefox 18- */
@@ -57,9 +76,44 @@
 .checkBoxInner#search:hover, .checkBoxInner input#search:focus, .checkBoxInner input#search:active{
    outline:none;
    background: #d8e9ff;
- }
+}
 
- .checkBoxInner input#search:hover, .checkBoxInner input#search:focus, .checkBoxInner input#search:active{
+.checkBoxInner input#search:hover, .checkBoxInner input#search:focus, .checkBoxInner input#search:active{
    outline:none;
    background: #d8e9ff;
- }
+   padding-right:10px;
+}
+
+
+table{
+	border-collapse : collapse; 
+	}  /*이중선 제거*/
+	
+	th,td{
+		width: 100px;
+		height: 50px;
+		text-align: center;
+
+		vertical-align: top;	/* 위 */
+		vertical-align: bottom;   /* 아래 */
+		vertical-align: middle;   /* 가운데 */
+		}
+	
+   th{
+      background-color:#A1B7CD;
+		font-size:16px; 
+		border-right: 1px solid #D9D9D9; 
+		}
+		
+	.inquiry table th{
+		width:150px; 
+		}
+		
+   tr:nth-child(2) {
+      border: 1px solid #D9D9D9;
+      }
+      
+   td{
+      height:250px; 
+      color:#B6B6B6;
+      }
