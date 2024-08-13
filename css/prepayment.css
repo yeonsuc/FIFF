@@ -38,7 +38,7 @@ outline:1px solid blue; */
    color: #4f5b66;
  } */
 .checkBoxInner input#search{
-   width: 300px;
+   width: 400px;
    height: 50px;
    background: #cddce9;
    border: none;
@@ -76,6 +76,7 @@ outline:1px solid blue; */
 .checkBoxInner#search:hover, .checkBoxInner input#search:focus, .checkBoxInner input#search:active{
    outline:none;
    background: #d8e9ff;
+   padding-right:10px;
 }
 
 .checkBoxInner input#search:hover, .checkBoxInner input#search:focus, .checkBoxInner input#search:active{

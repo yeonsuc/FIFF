@@ -6,15 +6,15 @@
 	position: relative; 
 	}
 
-	.inquiry h2{
-		width:200px; 
-		height:100px; 
-		line-height:100px; 
-		text-align:center; 
-		font-size:24px ; 
-		background-color:#A1B7CD; 
-		position: absolute; 
-		}
+.inquiry h2{
+	width:200px; 
+	height:100px; 
+	line-height:100px; 
+	text-align:center; 
+	font-size:24px ; 
+	background-color:#A1B7CD; 
+	position: absolute; 
+	}
 	
 .searchBar{
 	width:600px; 
