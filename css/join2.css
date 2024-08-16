@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 
-#array{width:310px; height:80px;  margin:50px auto 30px;  position:relative;}
+#array{width:310px; height:80px;  margin:50px auto 55px;  position:relative;}
 #array p {text-align:center; }
 h4 {text-align:center; }
 
@@ -21,18 +21,20 @@ h4 {text-align:center; }
         .array3 h4{font-size:14px; float:left; color:#B3BDD6} 
 
 
+/* 
+outline:1px solid blue; */
         
         
-        #log{width:460px; height:384px; margin:0 auto;  position:relative;}
-        #log input[type="text"],[type="password"]{width: 434px; height:56px; font-size:18px; border-radius:10px; margin-top:25px; border:1px solid #C2C2C2; padding-left: 24px; color:#8C8B8B}
+        #log{ width:470px;text-align:center; height:384px; margin:0 auto; position:relative; }
+        #log input[type="text"],[type="password"]{ width: 434px; height:56px; font-size:18px; margin:25px auto; display:block; border-radius:5px; border:1px solid #C2C2C2; padding-left: 24px; color:#8C8B8B; }
             #log input[type="text"]{background-color:#F0F3F6;}
-            #log img{position:absolute; left:420px; top:125px;}
-            #log small{width:211px; height:21px; font-size: 16px; margin:0 0 40px 120px; color:#9A9797;} 
-                #log small a{color:#9A9797;} 
-            #log button{width:460px; height:50px; background-color:#345AA0; color:white; font-size:20px; border-radius:10px; margin:40px 0 25px 0;}
-        #checkbox{width:397px; height:254px;  margin: 40px auto 65px; }
-            #checkbox .one,.two,.three,.four,.five {width:395px; height:50px; border-bottom:1px solid #DFDFDF; line-height:50px; float:left;}       
-            #checkbox input[type="checkbox"]{width:25px; height:25px; border-radius: 3px;  float:left; display:block; margin: 10px 5px 0 0; }
+            #log img{ position:absolute; left:420px; top:100px;}
+            #log .small{ height:50px; margin-top:20px; font-size:16px; color:#9A9797;  } 
+                #log .small a{color:#9A9797;} 
+            /* #log button{width:460px; height:50px; background-color:#345AA0; color:white; font-size:20px; border-radius:10px; margin:40px 0 25px 0;} */
+        #checkbox{width:397px; height:254px;  margin:10px auto 65px; }
+            #checkbox .one,.two,.three,.four,.five {width:395px; height:50px; border-bottom:1px solid #DFDFDF; line-height:50px; float:left; }       
+            #checkbox input[type="checkbox"]{width:25px; height:25px; border-radius: 3px;  float:left; display:block; margin: 12px 5px 0 0; }
             #checkbox label[for="one"]{font-size:20px; color:#2B3C5B; }
             #checkbox label[for="two"]{font-size:16px; color:#2B3C5B; }
             #checkbox label[for="three"]{font-size:16px; color:#2B3C5B; }
