@@ -12,7 +12,7 @@
         <!--메인서식-->
         <link href="./css/sub.css" rel="stylesheet" type="text/css">
         <link href="./css/footer.css" rel="stylesheet" type="text/css">
-        <link href="css/login.css" rel="stylesheet" type="text/css">
+        <link href="./css/login.css" rel="stylesheet" type="text/css">
 
         <!--아이콘폰트 주소-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -81,7 +81,7 @@
 
 						<!-- 로그인 회원가입 -->
 						<div class="lnb">
-							<a href="javascript:void(0);" title="로그인">로그인 | 회원가입</a>
+							<nowrap><a href="login.html" title="로그인">로그인</a> | <a href="join.html" title="로그인">회원가입</a></nowrap>
 							<ul>
 								<li>&nbsp;</li>
 								<li>&nbsp;</li>
@@ -133,8 +133,13 @@
                         <div class="checkbox">
                             <input type="checkbox" id="one" required>
                             <label for="one">로그인 상태 유지</label>
-                        </div>    
-                            <p>로그인</p>
+                        </div>   
+
+						<div class="rev"><button class="btn_b"  onclick="location.href='login.html';">로그인</button>
+						</div>
+
+						
+						<!-- <p>로그인</p> -->
                         <div class="search">
                             <a href="#">아이디찾기 |</a> 
                             <a href="#">비밀번호 찾기 |</a>

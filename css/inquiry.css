@@ -1,9 +1,7 @@
 ﻿@charset "utf-8";
 
 .inquiry { 
-	width: 800px; 
-	height: 450px; 
-	position: relative; 
+	/* width: 800px;  */
 	}
 
 .inquiry h2{
@@ -13,7 +11,6 @@
 	text-align:center; 
 	font-size:24px ; 
 	background-color:#A1B7CD; 
-	position: absolute; 
 	}
 	
 .searchBar{
@@ -52,12 +49,43 @@
 		background-color: transparent; 
 		}
 
+	.checkBox {
+		display: flex;
+		padding: 30px;
+		width:840px;
+		height: 50px;
+		justify-content: center; /* 중앙 정렬을 위해 컨테이너를 가운데로 배치합니다. */
+		background-color:#ebebeb;
+		border-radius: 8px;
+		/* margin:0 auto; */
+		}
+			
 
+	.checkBoxInner input#search{
+		width: 400px;
+		height: 50px;
+		background: #cddce9;
+		border: none;
+		font:bold 14pt "roboto";
+		float: left;
+		color: #345AA0;
+		padding-left: 25px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		
+		-webkit-transition: background .55s ease;
+		-moz-transition: background .55s ease;
+		-ms-transition: background .55s ease;
+		-o-transition: background .55s ease;
+		transition: background .55s ease;
+		}
 
 table{
 	border-collapse : collapse; 
-	position: absolute; 
-	top: 125px;
+	/* position: absolute;  */
+	/* top: 125px; */
+	margin-top:30px;
 	}  /*이중선 제거*/
 	
 	th,td{

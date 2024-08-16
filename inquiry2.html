@@ -81,7 +81,7 @@
 
 						<!-- 로그인 회원가입 -->
 						<div class="lnb">
-							<a href="javascript:void(0);" title="로그인">로그인 | 회원가입</a>
+							<nowrap><a href="login.html" title="로그인">로그인</a> | <a href="join.html" title="로그인">회원가입</a></nowrap>
 							<ul>
 								<li>&nbsp;</li>
 								<li>&nbsp;</li>
@@ -126,16 +126,28 @@
 					<div class="contInner">
 						<!-- 여기서부터 각자의 내용 -->
 
-                        <h3 class="sTitle">미납요금 조회 및 결제</h3>
+                        <h3 class="sTitle">미납요금 조회 및 결제</h3><!--간격20px-->
+
+                        <!-- 조회 및 결제 테이블 -->
+						<!-- 차량 번호 조회 -->
+                        <div class="checkBox">
+                            <div class="checkBoxInner">
+								<p class="tTitle">차량 번호 조회</p>
+                                <input type="search" id="search" placeholder="전체 차량번호를 입력하여 주세요.(예: 00가 0000)" required />
+                                <button class="btn_xs btn_gr">조회</button>
+                            </div> 
+                        </div>
+						<!-- //차량 번호 조회 -->
+
 
                         <div class="inquiry">
 						
-                            <h2>차량 번호 조회</h2>
+                            <!-- <h2>차량 번호 조회</h2>
                             
                             <div class="searchBar">
                                 <input type="text" placeholder="전체 차량번호를 입력하여 주세요.(예: 00가 0000)" required>
                                 <p>조회</p>
-                            </div>
+                            </div> -->
                             <table>
                                 <tr>
                                     <th scope="col">번호</th>
