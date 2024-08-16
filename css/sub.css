@@ -378,6 +378,11 @@ outline:1px solid blue; */
     text-decoration: underline;
 }
 
+.centerSpace30 {
+	text-align:center;
+	margin:30px;
+}
+
 /* 차량번호조회 서치 */
 .spaceR20 {
 	margin-right:20px;
@@ -478,6 +483,13 @@ button {
 	font-size: 18px;
 	background-color:#345AA0;
 }
+.btn_xxs{
+	width:130px;
+	line-height:40px;
+	height:46px;
+	font-size: 16px;
+	background-color:#345AA0;
+}
 
 /* button color별 */
 
@@ -513,7 +525,7 @@ button a {  color:#fff; }
 
 button:hover { background-color:#2B3C5B; color:#fff; }
 .btn_wh:hover { background-color:#F0F3F6; color:#345AA0; }
-.btn_lb:hover { background-color:#3f62a3; color:#fff; }
+.btn_lb:hover { background-color:#3F62A3; color:#fff; }
 .btn_llb:hover { background-color:#B4C5D7; color:#fff; }
 .btn_gr:hover { background-color:#C6C6C6; color:#345AA0; }
 
