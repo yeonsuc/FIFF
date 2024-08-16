@@ -1,8 +1,8 @@
 ﻿@charset "utf-8";
 
-.inquiry { 
-	/* width: 800px;  */
-	}
+/* .inquiry { 
+	width: 800px; 
+	} */
 
 .inquiry h2{
 	width:200px; 
@@ -98,8 +98,8 @@ table{
 		vertical-align: middle;   /* 가운데 */
 		}
 	
-   th{
-	   background-color:#A1B7CD;
+	th{
+		background-color:#A1B7CD;
 		font-size:16px; 
 		border-right: 1px solid #D9D9D9; 
 		}
@@ -108,11 +108,11 @@ table{
 		width:150px; 
 		}
 		
-   tr:nth-child(2) {
-	   border: 1px solid #D9D9D9;
-	   }
-	   
-   td{
-	   height:250px; 
-	   color:#B6B6B6;
-	   }
+	tr:nth-child(2) {
+		border: 1px solid #D9D9D9;
+		}
+		
+	td{
+		height:250px; 
+		color:#B6B6B6;
+		}

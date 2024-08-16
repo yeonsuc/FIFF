@@ -12,13 +12,14 @@ h4 {text-align:center; }
             .array1 p{ background-color:#E9EDF7; width: 52px; height: 52px;
                 text-align:center; line-height:52px; color:#B3BDD6; border-radius:26px; font-size:20px;}
             .array1 h4{font-size:14px; color:#B3BDD6; margin-top:10px; }
-            .array2{width:125px; height:80px; float:left;}
-            .array2 p{background-color:#E9EDF7; width: 52px; height: 52px; text-align:center; color:#B3BDD6; border-radius:26px; font-size:20px;margin:0 0 10px 35px;}
+         .array2{width:125px; heigt:80px; float:left;}
+            .array2 p{background-color:#E9EDF7; width: 52px; height: 52px; text-align:center; color:#B3BDD6; border-radius:26px; line-height:52px; font-size:20px;margin:0 0 10px 35px;}
             .array2 h4{font-size:14px; float:left; color:#B3BDD6; margin-left:10px;}
-                .array2 p img{width: 26px; height:26px; margin-top:13px ;}
+               .array1 p img{width: 26px; height:26px; margin-top:13px ;}
+                .array3 p img{width: 26px; height:26px; margin-top:13px ;}
             .array3{width:60px; height:80px; float:left;}
-            .array3 p{background-color:#5277A9; width: 52px; height: 52px; text-align:center; color:white; line-height:52px; border-radius:26px; font-size:20px;margin-bottom: 10px;}
-            .array3 h4{font-size:14px; float:left; color:#B3BDD6} 
+            .array3 p{ background-color:#5277A9;width: 52px; height: 52px; text-align:center; color:#B3BDD6; border-radius:26px; line-height:52px; font-size:20px; margin:0 0 10px 10px;}
+            .array3 h4{font-size:14px; float:left; color:#B3BDD6; margin-left:10px;}
 
 /* 
 outline:1px solid blue; */
