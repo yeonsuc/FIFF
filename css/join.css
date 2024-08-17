@@ -7,13 +7,17 @@ h4 {text-align:center; }
 
    .array1,.array2,.array3{margin-right:20px; ;}
       #array h3{z-index:-100;width:247px; height:2px; background-color:#E9EDF7; margin-left:30px; margin-top: 25px; position:absolute; left:0; top:0;} 
+      
          .array1{width:60px;  float:left; text-align:center;  }
             .array1 p{ background-color:#5277A9; width: 52px; height: 52px; text-align:center; color:white; border-radius:26px; font-size:20px;}
             .array1 h4{font-size:14px; color:#B3BDD6; margin-top:10px; }
+            .array1 p img{width: 26px; height:26px; margin-top:13px ;}
+
          .array2{width:125px; height:80px; float:left;}
             .array2 p{background-color:#E9EDF7; width: 52px; height: 52px; text-align:center; color:#B3BDD6; border-radius:26px; line-height:52px; font-size:20px;margin:0 0 10px 35px;}
             .array2 h4{font-size:14px; float:left; color:#B3BDD6; margin-left:10px;}
-               .array1 p img{width: 26px; height:26px; margin-top:13px ;}
+
+
          .array3{width:60px; height:80px; float:left;}
             .array3 p{background-color:#E9EDF7; width: 52px; height: 52px; text-align:center; color:#B3BDD6; line-height:52px; border-radius:26px; font-size:20px;margin-bottom: 10px;}
             .array3 h4{font-size:14px; float:left; color:#B3BDD6}   
