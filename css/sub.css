@@ -336,21 +336,20 @@ button {
 }
 .btn_xs{
 	width:130px;
-	line-height:52px;
+	line-height:50px;
 	height:50px;
 	font-size: 18px;
 	background-color:#345AA0;
 }
 .btn_xxs{
 	width:130px;
-	line-height:40px;
+	line-height:46px;
 	height:46px;
 	font-size: 16px;
 	background-color:#345AA0;
 }
 
 /* button color별 */
-
 
 .btn_wh{
 	background-color:#fff;
