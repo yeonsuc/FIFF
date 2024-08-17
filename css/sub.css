@@ -27,37 +27,6 @@
 outline:2px solid red; */
 
 
-.lnb{
-	display:flex;
-}
-.lnb a:first-child{
-	font-size:14px;
-	line-height:80px;
-}
-.lnb > ul{
-	width:48px; 
-	height:48px;
-	display:flex;
-	flex-wrap:wrap;
-	position:relative;
-	display:none;
-}
-.lnb > ul > li{
-	width:32px;
-	height:2px;
-	background:#666;
-	position:absolute;
-	left:6px;
-}
-.lnb > ul > li:first-child{top:12px;}
-.lnb > ul > li:nth-child(2){top:24px;}
-.lnb > ul > li:last-child{top:36px;}
-.lnb .search{
-	display:block;
-	width:32px; height:32px;
-	margin:14px 10px;
-	}
-
 /* 새로운 영역 스타일링 */
 
 .home {
