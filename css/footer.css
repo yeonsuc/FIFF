@@ -1,27 +1,5 @@
 footer{position:relative;}
 
-.chat_btn, .top_btn{
-  display:block;
-  width:60px; height:60px;
-  border-radius:50%;
-  position:fixed;
-  right:15px;
-  z-index:9999;
-}
-.chat_btn{overflow:hidden; bottom:15px;}
-.chat_btn > img{
-  width:100%;
-}
-.top_btn{
-  background:#F0F0F0;
-  text-align:center; bottom:15px; display:none;
-}
-.top_btn i.fas{
-  font-size:25px;
-  line-height:60px;
-  color:#0F2F6E;
-}
-
 /* footer*/
 #footer {   
 	background-color: #5669ae;
