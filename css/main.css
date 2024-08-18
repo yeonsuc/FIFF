@@ -234,9 +234,24 @@ outline:1px solid blue; */
 
 .contentWrapper {
   display: flex;
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
 }
+
+.contentWrapper h1{
+  line-height:40px;
+  padding-bottom:5px;
+}
+
+.contentWrapper p{
+  font-size:16px;
+  line-height:20px;
+  padding-bottom:5px;
+}
+
+
+/* 
+outline:1px solid blue; */
+
 
 .leftContent,
 .rightContent {
@@ -245,11 +260,12 @@ outline:1px solid blue; */
 }
 
 .leftContent img {
-  max-width: 100%;
+  width: 600px;
   height: auto;
 }
 
 .rightContent {
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,12 +300,13 @@ display: flex;
 }
 
 .rightContent img {
-  max-width: 700px;
+  width: 290px;
   height: auto;
-padding-right:100px;
+  padding-left:100px;
 }
 
 .leftContent h1{
+  width: 600px;
 font-size:30px;
 padding-left:30px;
 padding-top:20px;

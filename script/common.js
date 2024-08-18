@@ -3,11 +3,13 @@
 $('.gnb').mouseenter(function(){
   $('.sub').stop().slideDown();
   $('.sub_box').stop().slideDown();
+  // $('.subWrap').stop().slideDown();
 });
 
 $('.h_wrap').mouseleave(function(){
   $('.sub').stop().slideUp();
   $('.sub_box').stop().slideUp();
+  // $('.subWrap').stop().slideUp();
 });
 
 //메인슬라이드 서식
