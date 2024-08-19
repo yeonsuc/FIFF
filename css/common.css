@@ -130,16 +130,15 @@ nav li{
 }
 .sub a{color:#000000;}
 .sub a:hover{color:#4a80af; text-decoration:underline;}
-
 .sub_box{
 	width:100%;
 	height:200px;
 	background:#ffffffcf;
-	position: fixed;
-	/* margin-top:0;margin-left: 0; */
 	/* position:absolute; */
+	position: fixed;
 	top:70px; left:0; right:0;
 	z-index:8999;
+	display:none;
 }
 
 /* 
@@ -179,23 +178,23 @@ outline:2px solid red; */
 
 
 .chat_btn, .top_btn{
-  display:block;
-  width:60px; height:60px;
-  border-radius:50%;
-  position:fixed;
-  right:15px;
-  z-index:9999;
+	display:block;
+	width:60px; height:60px;
+	border-radius:50%;
+	position:fixed;
+	right:15px;
+	z-index:9999;
 }
 .chat_btn{overflow:hidden; bottom:15px;}
 .chat_btn > img{
-  width:100%;
+	width:100%;
 }
 .top_btn{
-  background:#F0F0F0;
-  text-align:center; bottom:15px; display:none;
+	background:#F0F0F0;
+	text-align:center; bottom:15px; display:none;
 }
 .top_btn i.fas{
-  font-size:25px;
-  line-height:60px;
-  color:#0F2F6E;
+	font-size:25px;
+	line-height:60px;
+	color:#0F2F6E;
 }
